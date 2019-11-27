@@ -36,7 +36,7 @@ var fontName = 'icons';
 //     gulp.src( 'src/assets/icons/*.svg' )
 //         .pipe( iconfontCss( {
 //             // где будет наш scss файл
-//             targetPath   : '../../styles/common/_icons.scss',
+//             targetPath   : '../../styles/_icons.scss',
 //             // пути подлючения шрифтов в _icons.scss
 //             fontPath     : 'src/assets/fonts/',
 //             fontName    : fontName
