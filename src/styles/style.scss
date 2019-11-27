@@ -160,7 +160,12 @@ header{
 		justify-content: space-between;
 	    flex-wrap: wrap;
 	    .item-offer__icon{
-	    	margin: 50px 74px 64px 74px;
+	    	&:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+	    	margin: 50px 98px 64px 74px;
 			.offer__icon{
 				width: 87px;
 				height: 70px;
