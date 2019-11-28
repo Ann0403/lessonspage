@@ -210,6 +210,7 @@ header{
 		.header{
 			position: relative;
     		top: 19px;
+    		width: 480px;
 			.header__logo{
 				line-height: 93.9%;
 				margin-left: 10px
@@ -217,8 +218,10 @@ header{
 			.header__menu{
 				z-index: 1;
 				background: #fff;
+				width: 480px;
+				margin-top: 58px;
 				.button-burger{
-					margin-top: 17px;
+					margin-top: -39px;
 					display: block;
 					height: 40px;
 					background: url(img/menu.svg) no-repeat center;
@@ -290,6 +293,9 @@ header{
 			.type-dance__img{
 				display: flex;
 					.lessons-dance{
+						.lessons-dance__item{
+							width: 373px;
+						}
 						.img-dance___item{
 							width: 401px;
 						}
