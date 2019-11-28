@@ -49,4 +49,4 @@ var fontName = 'icons';
 //             fontHeight  : 1001
 //         } ) )
 //         .pipe( gulp.dest( 'src/assets/fonts' ) )
-// });
+//   });
