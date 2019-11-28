@@ -7,3 +7,8 @@
 });
 }());
 
+$(function() {
+  $('.button-burger').click(function() {
+    $('.header__menu__item').slideToggle();
+  });
+});

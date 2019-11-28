@@ -230,6 +230,7 @@ header{
 					}
 				.header__menu__item{
 					display: none;
+					margin-top: 44px;
 					.menu__list{
 						display: block;
 						.menu__link{
@@ -279,7 +280,6 @@ header{
 	.section-service{
 		margin-top: 63px;
 		max-width: 684px;
-		.subtitle-service{}
 			.service-decription{
 				width: 284px;
 			}
@@ -299,6 +299,7 @@ header{
 	.section-offer{
 		.item-offer{
 	    	margin-top: 83px;
+	    	width: 480px;
 			.item-offer__icon{
 				padding-right: 92px;
 				width: 88px;
@@ -314,19 +315,18 @@ header{
 				}
 		}
 	}
-}/*cont*/
-}/*main*/
+}
+}
 
 
 .footer{
 	height: 53px;
 	padding: 16px;
-		.footer__title{
+	width: 480px;
+	.footer__copyright{
+		margin-right: 59px;
+		margin-top: 3px;
 		}
-		.footer__copyright{
-		   	margin-right: 59px;
-			margin-top: 3px;
-			}
 }
 
-}/*media*/
+}
