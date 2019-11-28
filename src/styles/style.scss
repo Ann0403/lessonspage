@@ -215,6 +215,8 @@ header{
 				margin-left: 10px
 			}
 			.header__menu{
+				z-index: 1;
+				background: #fff;
 				.button-burger{
 					margin-top: 17px;
 					display: block;
@@ -223,16 +225,18 @@ header{
 					background-size: contain;
 					cursor: pointer;
 				}
-					.burger_active{
-						background: url(img/multiply.svg) no-repeat center;
-						background-size: contain;
-						height: 30px;
-					}
+				.burger_active{
+					background: url(img/multiply.svg) no-repeat center;
+					background-size: contain;
+					height: 30px;
+				}
 				.header__menu__item{
 					display: none;
 					margin-top: 44px;
 					.menu__list{
 						display: block;
+						margin-top: 20px;
+						padding-top: 4px;
 						.menu__link{
 						}
 					}
@@ -270,7 +274,7 @@ header{
 			width: 100%;
 			.img__item{
 				max-width: 480px;
-				height: 390px;
+				height: 365px;
 			    position: absolute;
 			    left: 0;
 			}
